@@ -1,0 +1,103 @@
+/*style body elements by adding background image and set it to cover, add font-family*/
+body{
+    font-family: 'Arvo', serif;
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1033-1024x683.jpeg) no-repeat center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/*style brand*/
+.logo{
+    height: 40px;
+}
+
+/*style navigation bar*/
+.nav li{
+    padding: 10px;
+    font-size: 17px;
+    margin-right: 35px;
+    
+}
+.nav li:hover{
+    border-bottom: 1px solid #03fbd6;
+    padding-bottom: 9px;
+}
+.navbar-inverse{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*style jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    }    
+
+/*limit the width of the icons section*/
+.container{
+    max-width: 1000px;
+}
+
+/*style icons section using bootstrap grid */
+.bodyimage{
+    height: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+
+.icon p{
+    font-size: 15px;
+}
+
+/*style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+    background: transparent;
+    color: white;
+    background-color: rgba(1, 245, 208, 0.5);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+
+/*style footer*/
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+/*add styling for devices between 480px and 768px*/
+@media (max-width: 768px){
+    .logo{
+        width: 44px;
+        height: 40px;
+    }
+
+    .navbar{
+        padding-bottom: 20px;
+    }
+    
+    .bodyimage{
+        height: 70px;
+    }
+}
